@@ -1,0 +1,178 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.green-background
+{
+    background-color: green;
+    color: white;
+}
+
+.red-background
+{
+    background-color: red;
+}
+
+.blue-background
+{
+    background-color: blue;
+}
+
+.small-width
+{
+    width: fit-content;
+}
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.full-width
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-display
+{
+    display: inline;
+}
+
+header
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+footer
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.center-horizontally-text
+{
+    text-align: center;
+}
+
+main
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#main-content-block
+{
+    padding: 2vw;
+    width: 500px;
+}
+
+.floated-left
+{
+    float: left;
+}
+
+.floated-right
+{
+    
+}
+
+.no-overflow
+{
+    overflow: visible;
+}
+
+.red
+{
+    color:red;
+}
+
+#link
+{
+    display: flex;
+    justify-content: center;
+}
+
+.square
+{
+    width:100px;
+    height:100px;
+    border: solid white 5px;
+    margin: 1vw;
+}
+
+.rounded
+{
+    border-radius: 20px 0 20px 0;
+}
+
+.centered
+{
+    align-self: center;
+    justify-content: center;
+}
+
+#list-content li::marker
+{
+    font-size: 12px;
+}
+
+.spaced
+{
+    letter-spacing: 4px;
+}
+
+#list-header
+{
+    word-spacing: 15px;
+}
+
+.cyan
+{
+    color: cyan;
+}
+
+#bottom-part
+{
+    display: flex;
+}
+
+#like-button
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-left: 80%;
+}
+
+#matrix
+{
+    display: table-column;
+    justify-content: right;
+    margin-left: 30%;
+}
+
+#matrix table
+{
+    margin-top: 40px;
+    border: solid whitesmoke 0.5px;
+}
+
+#matrix table tr td
+{
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    width: 20px;
+    border: solid whitesmoke 0.5px;
+}
